@@ -15,13 +15,15 @@ Player can deposit and pay out the funds, check balance and play with different 
 ## 📂 Project structure
 ```bash
 Slots/
-├── slots/
-│ ├── src/
-│ │ ├── main.cpp
-│ │ ├── slots.cpp
-│ │ └── slots.h
-│ ├── CMakeLists.txt
-│ └── README.md
+└── slots/
+├── src/
+│ ├── main.cpp
+│ ├── slots.cpp
+│ └── slots.h
+├── CMakeLists.txt
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 ## 🛠️ Installation and start
 
