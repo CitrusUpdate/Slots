@@ -41,7 +41,7 @@ Clone repository:
     cmake -S . -B build -G "MinGW Makefiles"
     cmake --build build
     build/slotgame.exe
-    ```
+    ``
 
 ## LICENSE
 Project on license [MIT](LICENSE).
