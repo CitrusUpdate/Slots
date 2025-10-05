@@ -26,23 +26,22 @@ Slots/
 ## 🛠️ Installation and start
 
 ### 🔹 Linux / macOS
-Clone repository:
-    ```bash
+```bash
     git clone https://github.com/CitrusUpdate/Slots.git
     cd Slots/slots
     cmake -S . -B build
     cmake --build build
     ./build/slotgame
-    ```
+```
 ### 🔹 Windows
-1. Install MinGW or MSYS2
-    ```bash
+1. You need to install MinGW or MSYS2
+```bash
     git clone https://github.com/CitrusUpdate/Slots.git
     cd Slots/slots
     cmake -S . -B build -G "MinGW Makefiles"
     cmake --build build
     build/slotgame.exe
-    ```
+```
 
 ## LICENSE
 Project on license [MIT](LICENSE).
