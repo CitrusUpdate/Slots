@@ -1,0 +1,25 @@
+# Build artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/*.cmake
+
+# Executables
+*.exe
+*.out
+*.o
+*.obj 
+*.pdb
+*.ilk
+
+# IDE settings
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# macOS system files
+.DS_Store
