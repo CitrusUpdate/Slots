@@ -13,6 +13,7 @@ Player can deposit and pay out the funds, check balance and play with different 
 - 📂 Autosave balance
 
 ## 📂 Project structure
+```bash
 Slots/
 ├── slots/
 │ ├── src/
@@ -21,33 +22,26 @@ Slots/
 │ │ └── slots.h
 │ ├── CMakeLists.txt
 │ └── README.md
-
+```
 ## 🛠️ Installation and start
 
 ### 🔹 Linux / macOS
-1. Clone repository:
+Clone repository:
     ```bash
     git clone https://github.com/CitrusUpdate/Slots.git
     cd Slots/slots
-
-2. Build project
     cmake -S . -B build
     cmake --build build
-
-3. Start program
     ./build/slotgame
 
 ### 🔹 Windows
 1. Install MinGW or MSYS2
-
-2. In terminal go to folder slots
-
-3. Build project
+    git clone https://github.com/CitrusUpdate/Slots.git
+    cd Slots/slots
     cmake -S . -B build -G "MinGW Makefiles"
     cmake --build build
-
-4. Start
     build/slotgame.exe
+    ```
 
 ## LICENSE
 Project on license [MIT](LICENSE).
